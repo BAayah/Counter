@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Counter</title>
+</head>
+<body>
+    <h1 class=""id="pl">0</h1>
+    <button onclick="CounterPl()">+</button>
+    <h3>Counter</h3>
+    <script>
+
+        let counter = 0  // = 5
+
+        const CounterPl = () => {
+            let res = document.getElementById('pl').innerHTML = counter
+            counter++
+            // alert("salam");
+            console.log(res)
+        };
+        // setInterval(() => {
+        //     CounterPl()
+        // }, 1000);
+    </script>
+</body>
+</html>
